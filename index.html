@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Властелин колец</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        section {
+            margin: 40px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        .section-image {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 20px auto;
+        }
+        .character-image {
+            width: 150px;
+            height: auto;
+            border-radius: 8px;
+            margin-right: 20px;
+            display: inline-block;
+        }
+        .character-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Мир Властелина колец</h1>
+        <p>Погрузитесь в увлекательный мир Средиземья</p>
+    </header>
+
+    <nav>
+        <a href="#about">О проекте</a>
+        <a href="#characters">Персонажи</a>
+        <a href="#plot">Сюжет</a>
+        <a href="#mythology">Мифология</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>О проекте</h2>
+            <p>Этот сайт посвящен великому произведению Дж. Р. Р. Толкина "Властелин колец", который открыл мир Средиземья миллионам читателей по всему миру. Здесь вы найдете информацию о персонажах, местах, а также сможете погрузиться в истории, которые сформировали эпическое повествование.</p>
+            <img src="https://static.wikia.nocookie.net/lotr/images/7/7b/%D0%A1%D1%80%D0%B5%D0%B4%D0%B8%D0%B7%D0%B5%D0%BC%D1%8C%D0%B5.jpg/revision/latest/scale-to-width-down/1000?cb=20190418150646&path-prefix=ru" alt="Карта Средиземья" class="section-image">
+        </section>
+
+        <section id="characters">
+            <h2>Персонажи</h2>
+
+            <div class="character-info">
+                <img src="https://static.wikia.nocookie.net/lotr/images/2/25/%D0%A4%D1%80%D0%BE%D0%B4%D0%BE.jpg/revision/latest?cb=20141209145510&path-prefix=ru" alt="Фродо Бэггинс" class="character-image">
+                <div>
+                    <h3><strong>Фродо Бэггинс</strong></h3>
+                    <p>Фродо Бэггинс — хоббит, который несет ответственность за уничтожение Единого кольца. Он начинает своё путешествие в Шире и становится одним из величайших героев Средиземья.</p>
+                </div>
+            </div>
+
+            <div class="character-info">
+                <img src="https://static.wikia.nocookie.net/lotr/images/5/51/%D0%92%D0%B8%D0%B3%D0%B3%D0%BE_%D0%9C%D0%BE%D1%80%D1%82%D0%B5%D0%BD%D1%81%D0%B5%D0%BD_%D0%B2_%D1%80%D0%BE%D0%BB%D0%B8_%D0%90%D1%80%D0%B0%D0%B3%D0%BE%D1%80%D0%BD%D0%B0.jpg/revision/latest?cb=20130514081602&path-prefix=ru" alt="Арагорн" class="character-image">
+                <div>
+                    <h3><strong>Арагорн</strong></h3>
+                    <p>Арагорн — наследник королевства Гондор и один из главных героев трилогии. Его мастерство в бою и лидерские качества играют важную роль в победе над Сауроном.</p>
+                </div>
+            </div>
+
+            <div class="character-info">
+                <img src="https://static.wikia.nocookie.net/lotr/images/4/42/%D0%93%D0%B5%D0%BD%D0%B4%D0%B0%D0%BB%D1%8C%D1%84_%D0%B8%D0%BD%D1%84%D0%BE%D0%B1%D0%BE%D0%BA%D1%81.jpg/revision/latest?cb=20220701074910&path-prefix=ru" alt="Гэндальф" class="character-image">
+                <div>
+                    <h3><strong>Гэндальф</strong></h3>
+                    <p>Гэндальф — мудрый маг, который направляет героев на их пути. Он играет ключевую роль в поддержке Фродо и его друзей в их путешествии.</p>
+                </div>
+            </div>
+
+            <div class="character-info">
+                <img src="https://static.wikia.nocookie.net/lotr/images/e/e4/%D0%9B%D0%B0%D1%8D%D0%B3%D0%BE%D0%BB%D0%B0%D1%81.jpg/revision/latest?cb=20151002113304&path-prefix=ru" alt="Леголас" class="character-image">
+                <div>
+                    <h3><strong>Леголас</strong></h3>
+                    <p>Леголас — эльф-лучник, верный союзник Фродо и Арагорна. Его навыки стрельбы и выносливость делают его незаменимым членом братства кольца.</p>
+                </div>
+            </div>
+
+            <div class="character-info">
+                <img src="https://static.wikia.nocookie.net/lotr/images/6/69/%D0%93%D0%B8%D0%BC%D0%BB%D0%B8_%D0%BF%D1%80%D0%BE%D0%BC%D0%BE.jpg/revision/latest?cb=20160429144405&path-prefix=ru" alt="Гимли" class="character-image">
+                <div>
+                    <h3><strong>Гимли</strong></h3>
+                    <p>Гимли — гном, который становится верным другом Леголаса и союзником в битвах. Несмотря на различие в расах, Гимли и Леголас становятся неразлучными друзьями.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="plot">
+            <h2>Сюжет</h2>
+            <p>Главная история "Властелина колец" рассказывает о том, как хоббит Фродо Бэггинс с помощью своих друзей отправляется в опасное путешествие, чтобы уничтожить Единое кольцо, которое обладает огромной магической силой и может подчинить себе все живое. Путешествие приводит героев в самые разные уголки Средиземья, где они сталкиваются с множеством опасностей, сражений и личных испытаний.</p>
+        </section>
+
+        <section id="mythology">
+            <h2>Мифология</h2>
+            <p>Средиземье — это мир, богатый мифами, легендами и языками. Толкин создал целую историю мира, его народов, богов и древних существ, таких как Валары, эльфы, орки и драконы. Изучение мифологии Средиземья открывает множество тайн и загадок, которые толкиноведы до сих пор пытаются разгадать.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Мир Властелина колец. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
